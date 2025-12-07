@@ -1,6 +1,7 @@
-import dotenv from "dotenv";
-dotenv.config({quiet: true});
+import dotenv from 'dotenv';
+
+dotenv.config({ quiet: true });
 
 export default {
-  PORT: process.env.PORT || 3000
+  PORT: process.env.PORT || 3000,
 };
